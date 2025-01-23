@@ -7,3 +7,7 @@ For more details about the "sum-to-n" functionality, check out [1-sum-to-n/READM
 ## Task 2
 
 For more details about the "A Crude Server" functionality, check out [2-customer-api/README.md](2-customer-api/README.md).
+
+## Task 3
+
+For more details about the "Architecture" task, check out [3-design-leaderboard/README.md](3-design-leaderboard/README.md).
