@@ -1,6 +1,6 @@
 # Scoreboard Module
 
-This module handles user scores and leaderboard functionalities. It is integrated with other existing modules and middlewares, such as the `Actions`, `Auth` utilizing "EventEmitter" for low coupling.
+This module handles user scores and leaderboard functionalities. It is integrated with other existing modules and middlewares, such as the `Actions`, `User`, `Auth` utilizing "EventEmitter" for low coupling.
 
 ## Functionalities
 
@@ -62,3 +62,4 @@ Follow the provided API endpoints and event handling procedures to implement and
 
 If score updates don't happen very often we should consider using polling instead of web sockets for simplicity.
 Also we should consider writing batch updates with user score to `Postgres` for more robust data persistence and easier data access for analytics.
+Event emitter might be replaced with some pub/sub system in case we move to microservices
