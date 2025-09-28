@@ -4,7 +4,7 @@ This module handles user scores and leaderboard functionalities. It is integrate
 
 ## Functionalities
 
-- **User Registration event**: When a new user registers, the Scoreboard module initializes their score in both Redis and PostgreSQL.
+- **User Registration event**: When a new user registers, the Scoreboard module initializes their score in Redis.
 - **Score Updates event**: Handles score increments and updates the leaderboard in real-time.
 - **Leaderboard**: Provides the top 10 scores to users through API and WebSocket connections.
 
